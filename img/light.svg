@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="500" viewBox="0 0 840 500" font-family="Consolas, Menlo, monospace" font-size="13px">
+<rect x="0.5" y="0.5" width="839" height="499" rx="10" fill="#ffffff" stroke="#d0d7de"/>
+<text x="10" y="60" fill="#57606a" xml:space="preserve">                  ...</text>
+<text x="10" y="75" fill="#57606a" xml:space="preserve">             ..:::::-.</text>
+<text x="10" y="90" fill="#57606a" xml:space="preserve">            ..-=**-**#.</text>
+<text x="10" y="105" fill="#57606a" xml:space="preserve">            ..-+****#%#.</text>
+<text x="10" y="120" fill="#57606a" xml:space="preserve">             .:=****#%%*</text>
+<text x="10" y="135" fill="#57606a" xml:space="preserve">             .:-+***%%%*.</text>
+<text x="10" y="150" fill="#57606a" xml:space="preserve">              .:-=+#%%%*+</text>
+<text x="10" y="165" fill="#57606a" xml:space="preserve">             .--===#%%#*:</text>
+<text x="10" y="180" fill="#57606a" xml:space="preserve">               ..:-=##**-</text>
+<text x="10" y="195" fill="#57606a" xml:space="preserve">             .-+*==-+##*-</text>
+<text x="10" y="210" fill="#57606a" xml:space="preserve">             :=+**=..+**+</text>
+<text x="10" y="225" fill="#57606a" xml:space="preserve">        .::::=*##*=.  =#*-</text>
+<text x="10" y="240" fill="#57606a" xml:space="preserve">        .::=+##%%*:    =*+</text>
+<text x="10" y="255" fill="#57606a" xml:space="preserve">         .:=+#%%%*     .==</text>
+<text x="10" y="270" fill="#57606a" xml:space="preserve">           :-+###=.    -=-</text>
+<text x="10" y="285" fill="#57606a" xml:space="preserve">            :-+#+=:...=*=:</text>
+<text x="10" y="300" fill="#57606a" xml:space="preserve">            .:-===::::=*+</text>
+<text x="10" y="315" fill="#57606a" xml:space="preserve">            ..:::::::-=*=:</text>
+<text x="10" y="330" fill="#57606a" xml:space="preserve">             ..::::::::---.</text>
+<text x="10" y="345" fill="#57606a" xml:space="preserve">              ..:::.:::-==:</text>
+<text x="10" y="360" fill="#57606a" xml:space="preserve">               .::...  -**=.</text>
+<text x="10" y="375" fill="#57606a" xml:space="preserve">                      -*#=-.</text>
+<text x="10" y="390" fill="#57606a" xml:space="preserve">                     :+*--=====-.</text>
+<text x="10" y="405" fill="#57606a" xml:space="preserve">                    ::--:-++*****=-</text>
+<text x="10" y="420" fill="#57606a" xml:space="preserve">                    :::--+++******==</text>
+<text x="10" y="435" fill="#57606a" xml:space="preserve">        ..             .-+++===+*****+-</text>
+<text x="10" y="450" fill="#57606a" xml:space="preserve">       ..                :======+*****+=:</text>
+<text x="10" y="465" fill="#57606a" xml:space="preserve">      ..                   :-==++*****+===</text>
+<text x="390" y="45" xml:space="preserve"><tspan fill="#0969da">chenyichener@github </tspan><tspan fill="#afb8c1">────────────────────────────────────</tspan></text>
+<text x="390" y="87" xml:space="preserve"><tspan fill="#953800">OS: </tspan><tspan fill="#afb8c1">................................. </tspan><tspan fill="#24292f">macOS 27.2 (arm64)</tspan></text>
+<text x="390" y="108" xml:space="preserve"><tspan fill="#953800">Host: </tspan><tspan fill="#afb8c1">......................... </tspan><tspan fill="#24292f">MacBook Pro 14&quot; (M1 Pro)</tspan></text>
+<text x="390" y="129" xml:space="preserve"><tspan fill="#953800">Kernel: </tspan><tspan fill="#afb8c1">.................................. </tspan><tspan fill="#24292f">Darwin 27.2.0</tspan></text>
+<text x="390" y="150" xml:space="preserve"><tspan fill="#953800">Uptime: </tspan><tspan fill="#afb8c1">..................... </tspan><tspan fill="#24292f">8 years, 9 months, 18 days</tspan></text>
+<text x="390" y="171" xml:space="preserve"><tspan fill="#953800">Shell: </tspan><tspan fill="#afb8c1">......................................... </tspan><tspan fill="#24292f">zsh 5.9</tspan></text>
+<text x="390" y="192" xml:space="preserve"><tspan fill="#953800">Terminal: </tspan><tspan fill="#afb8c1">...................................... </tspan><tspan fill="#24292f">Ghostty</tspan></text>
+<text x="390" y="213" xml:space="preserve"><tspan fill="#953800">IDE: </tspan><tspan fill="#afb8c1">.............................. </tspan><tspan fill="#24292f">IntelliJ IDEA, Xcode</tspan></text>
+<text x="390" y="234" xml:space="preserve"><tspan fill="#953800">Timezone: </tspan><tspan fill="#afb8c1">.................................. </tspan><tspan fill="#24292f">CST (UTC+8)</tspan></text>
+<text x="390" y="276" xml:space="preserve"><tspan fill="#953800">Languages.Programming: </tspan><tspan fill="#afb8c1">.............. </tspan><tspan fill="#24292f">Java, HTML, Python</tspan></text>
+<text x="390" y="318" xml:space="preserve"><tspan fill="#0969da">─ GitHub Stats </tspan><tspan fill="#afb8c1">─────────────────────────────────────────</tspan></text>
+<text x="390" y="339" xml:space="preserve"><tspan fill="#953800">Repos: </tspan><tspan fill="#afb8c1">... </tspan><tspan fill="#24292f">27 {Contributed: 1}</tspan><tspan fill="#afb8c1"> | </tspan><tspan fill="#953800">Stars: </tspan><tspan fill="#afb8c1">.............. </tspan><tspan fill="#24292f">1</tspan></text>
+<text x="390" y="360" xml:space="preserve"><tspan fill="#953800">Commits: </tspan><tspan fill="#afb8c1">.................. </tspan><tspan fill="#24292f">18</tspan><tspan fill="#afb8c1"> | </tspan><tspan fill="#953800">Followers: </tspan><tspan fill="#afb8c1">.......... </tspan><tspan fill="#24292f">1</tspan></text>
+<text x="390" y="381" xml:space="preserve"><tspan fill="#953800">Lines of Code: </tspan><tspan fill="#24292f">1,106</tspan><tspan fill="#afb8c1"> ( </tspan><tspan fill="#1a7f37">1,107++</tspan><tspan fill="#afb8c1">, </tspan><tspan fill="#cf222e">1--</tspan><tspan fill="#afb8c1"> )</tspan></text>
+<text x="390" y="402" xml:space="preserve"><tspan fill="#953800">Contributions: </tspan><tspan fill="#afb8c1">.......................... </tspan><tspan fill="#24292f">14 (past year)</tspan></text>
+<text x="390" y="423" xml:space="preserve"><tspan fill="#953800">Following: </tspan><tspan fill="#afb8c1">................. </tspan><tspan fill="#24292f">8</tspan><tspan fill="#afb8c1"> | </tspan><tspan fill="#953800">Starred: </tspan><tspan fill="#afb8c1">.......... </tspan><tspan fill="#24292f">102</tspan></text>
+<text x="390" y="465" xml:space="preserve"><tspan fill="#953800">Last updated: </tspan><tspan fill="#afb8c1">..................... </tspan><tspan fill="#24292f">2026-11-03 08:10 UTC</tspan></text>
+</svg>
