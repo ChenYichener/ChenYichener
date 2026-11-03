@@ -211,8 +211,8 @@ def to_art(grid: list[list[float]], lo: float, hi: float, gamma: float,
 
 
 def build(path: str, cols: int, rows: int, *, box=None, sigma: float = 1.5,
-          lo: float = 45.0, hi: float = 215.0, gamma: float = 0.9,
-          blank_below: float = 30.0) -> str:
+          lo: float = 60.0, hi: float = 215.0, gamma: float = 1.2,
+          blank_below: float = 40.0) -> str:
     w, h, rgb = read_png(path)
     if box:
         w, h, rgb = crop(w, h, rgb, box)
@@ -230,10 +230,10 @@ def main(argv=None) -> int:
     ap.add_argument("--cols", type=int, default=45)
     ap.add_argument("--rows", type=int, default=28)
     ap.add_argument("--sigma", type=float, default=1.5, help="gaussian blur sigma")
-    ap.add_argument("--lo", type=float, default=45.0, help="input level mapped to blank")
+    ap.add_argument("--lo", type=float, default=60.0, help="input level mapped to blank")
     ap.add_argument("--hi", type=float, default=215.0, help="input level mapped to densest")
-    ap.add_argument("--gamma", type=float, default=0.9)
-    ap.add_argument("--blank-below", type=float, default=30.0,
+    ap.add_argument("--gamma", type=float, default=1.2)
+    ap.add_argument("--blank-below", type=float, default=40.0,
                     help="cells darker than this become spaces (kills background)")
     ap.add_argument("--out", default="", help="write art to this file instead of stdout")
     args = ap.parse_args(argv)

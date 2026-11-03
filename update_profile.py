@@ -28,42 +28,40 @@ PROFILE = {
     "host": 'MacBook Pro 14" (M1 Pro)',
     "kernel": "Darwin 27.2.0",
     "shell": "zsh 5.9",
-    "terminal": "Ghostty",
     "ide": "IntelliJ IDEA, Xcode",
-    "timezone": "CST (UTC+8)",
+    "email": "chenyichen0822@gmail.com",
 }
 
 # 45 columns x 28 rows of a lit portrait on a dark background. Generate with:
 #   python3 tools/ascii_avatar.py tools/avatar.png --out art.txt
 ART = r"""
-                  ...
-             ..:::::-.
-            ..-=**-**#.
-            ..-+****#%#.
-             .:=****#%%*
-             .:-+***%%%*.
-              .:-=+#%%%*+
-             .--===#%%#*:
-               ..:-=##**-
-             .-+*==-+##*-
-             :=+**=..+**+
-        .::::=*##*=.  =#*-
-        .::=+##%%*:    =*+
-         .:=+#%%%*     .==
-           :-+###=.    -=-
-            :-+#+=:...=*=:
-            .:-===::::=*+
-            ..:::::::-=*=:
-             ..::::::::---.
-              ..:::.:::-==:
-               .::...  -**=.
-                      -*#=-.
-                     :+*--=====-.
-                    ::--:-++*****=-
-                    :::--+++******==
-        ..             .-+++===+*****+-
-       ..                :======+*****+=:
-      ..                   :-==++*****+===
+               .. ...
+              .:==.++*
+              :=++++*##
+              .-++=+*#%+
+              .:=+++#%%+
+               .:-=#%%%+-
+              .:---*%#*+.
+                 ..:**++.
+              :-=-:.-**+.
+              --+=:  -++=
+         ....-+#*+:   -#+:
+         ..-=*###+.    -+=
+          .-=*###+      -:
+            :=***:     :::
+             :=*=-.   -+:.
+             .:--:....-+-
+              .......:-+-.
+                ..   ..:::
+                 .     :--.
+                       .++-
+                      .**-.
+                     .=+:.::-:::
+                    ..:...-=+++++::
+                      ..:--=++++++::
+                        .----::-+++++=:
+                         .:::::-=+++++=-.
+                            :::-=+++++=---
 """
 
 PALETTES = {
@@ -303,12 +301,12 @@ def info_lines(stats: dict) -> list[list[tuple[str, str]]]:
         kv("Kernel", PROFILE["kernel"]),
         kv("Uptime", uptime),
         kv("Shell", PROFILE["shell"]),
-        kv("Terminal", PROFILE["terminal"]),
         kv("IDE", PROFILE["ide"]),
-        kv("Timezone", PROFILE["timezone"]),
         [],
         kv("Languages.Programming", languages_value(stats["languages"])),
         [],
+        rule("Contact"),
+        kv("Email", PROFILE["email"]),
         rule("GitHub Stats"),
         kv2("Repos", f'{stats["repos"]} {{Contributed: {stats["contributed"]}}}', "Stars", n(stats["stars"])),
         kv2("Commits", n(stats["commits"]), "Followers", n(stats["followers"])),
